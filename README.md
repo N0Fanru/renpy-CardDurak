@@ -45,6 +45,6 @@ To call the game, use `call durak_game`:
 A known possible problem: a conflict of variables from the game with variables of your project. Although the variables are named more specifically, it is impossible to protect yourself from this completely. In case of such conflicts, you just need to rename either your variables or variables in the durak files (`durak\durak.rpy`, `durak\screens.rpy`, `durak\settings.rpy`).
 
 ## About the code itself
-Initially, the game was planned to add the ability to cheat on the player's side and on the opponent's side. In the end, I abandoned this idea, but its beginnings are visible in the code and because of this, the code may seem strange in places. In general, I can't say that the code is 100% done correctly, but it works and that's the main thing.
+Initially, the game was planned to add the ability to cheat on the player's side and on the opponent's side. In the end, I abandoned this idea, but its beginnings are visible in the code and because of this, the code may seem strange in places. In general, I can't say that the code is 100% done correctly, but it works good (including on mobile devices) and that's the main thing.
 
 The comments in the code may be a little crooked, as I don't know English very well, but it's still clear.
