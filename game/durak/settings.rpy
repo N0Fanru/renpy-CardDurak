@@ -117,7 +117,7 @@ define button_translation = 'Translate'
 
 # You can change any numbers, but do not change the structure, it is also important that the numbers go from top to bottom in descending order
 # By analogy, you can add an additional line with values
-define npc_condition_beat1 = {15: (9, 12, 9, 9, 12, 11),
+define npc_condition_beat1 = {15: (9, 12, 11, 9, 12, 11),
 6:  (10, 13, 11, 9, 13, 12),
 0:  (11, 13, 12, 8, 14, 13)}
 
