@@ -7,6 +7,8 @@
 ## About
 "Durak" is a classic Russian card game, a throw-in and translation version for Ren'Py games.
 
+The `ruls.rpy` file describes the rules of the game.
+
 The main feature of this code compared to the rest is the character's interactivity during the game: an image is displayed, emotions change, phrases are pronounced with some chance. However, if necessary, all this can be disabled in the `settings.rpy` file. Also, with the help of this file, you can easily change various settings (phrases, texts, character behavior, who goes first, etc.).
 
 After the game is over, the `who_win_` variable is returned with a value of 0 (the opponent won), 1 (draw) or 2 (the player won)
