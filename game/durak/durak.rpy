@@ -236,7 +236,7 @@ init python:
                 else:
                     del s[card]
 
-            if set_cards != []:
+            if set_cards != [] and len(set_cards) >= player_cards_.qt():
                 for c in set_cards:
                     self.cards_attack.append(c)
                     self.cards_attack_from.append(False)
